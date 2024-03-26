@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "./static/css/main.ba88a3b2.css",
-    "main.js": "./static/js/main.454f53aa.js",
-    "static/js/453.933a2c70.chunk.js": "./static/js/453.933a2c70.chunk.js",
-    "static/media/testimonials-bg.png": "./static/media/testimonials-bg.ec360b89e4cb398056f7.png",
-    "static/media/home-bg.png": "./static/media/home-bg.1fed71ac83cfb2cc3070.png",
-    "static/media/some-facts-bg.png": "./static/media/some-facts-bg.1be1e9076a91e1574153.png",
-    "static/media/slick.svg": "./static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "./static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "./static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "./static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "./index.html",
-    "main.ba88a3b2.css.map": "./static/css/main.ba88a3b2.css.map",
-    "main.454f53aa.js.map": "./static/js/main.454f53aa.js.map",
-    "453.933a2c70.chunk.js.map": "./static/js/453.933a2c70.chunk.js.map"
+    "main.css": "/MonPortFolio/static/css/main.8bcf9058.css",
+    "main.js": "/MonPortFolio/static/js/main.1a8173d6.js",
+    "static/js/453.933a2c70.chunk.js": "/MonPortFolio/static/js/453.933a2c70.chunk.js",
+    "static/media/testimonials-bg.png": "/MonPortFolio/static/media/testimonials-bg.ec360b89e4cb398056f7.png",
+    "static/media/home-bg.png": "/MonPortFolio/static/media/home-bg.1fed71ac83cfb2cc3070.png",
+    "static/media/some-facts-bg.png": "/MonPortFolio/static/media/some-facts-bg.1be1e9076a91e1574153.png",
+    "static/media/slick.svg": "/MonPortFolio/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/MonPortFolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/MonPortFolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/MonPortFolio/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/MonPortFolio/index.html",
+    "main.8bcf9058.css.map": "/MonPortFolio/static/css/main.8bcf9058.css.map",
+    "main.1a8173d6.js.map": "/MonPortFolio/static/js/main.1a8173d6.js.map",
+    "453.933a2c70.chunk.js.map": "/MonPortFolio/static/js/453.933a2c70.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba88a3b2.css",
-    "static/js/main.454f53aa.js"
+    "static/css/main.8bcf9058.css",
+    "static/js/main.1a8173d6.js"
   ]
 }
