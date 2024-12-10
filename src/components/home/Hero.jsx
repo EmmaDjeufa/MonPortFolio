@@ -13,7 +13,7 @@ export const Hero = () => {
             <h2 style={{ fontSize: '30px', fontFamily: 'serif',fontWight: 'bold' }}>
               <Typewriter
                 options={{
-                  strings: [`${val.name}`, `${val.post}`, `${val.design}`],
+                  strings: [`${val.name}`, `${val.post}`, `${val.design}`, `${val.design1}`, `${val.design2}`],
                   autoStart: true,
                   loop: true,
                 }}
@@ -21,7 +21,7 @@ export const Hero = () => {
             </h2>
             <a href="EmmanuellaDjeufa_CurriculumVitae-1.pdf" download="EmmanuellaDjeufa_CurriculumVitae-1.pdf">
             <button className='primaryBtn' data-aos='fade-up-right'>
-             Télécharger le CV
+             Télécharger mon CV ?
             </button>
             </a>
 

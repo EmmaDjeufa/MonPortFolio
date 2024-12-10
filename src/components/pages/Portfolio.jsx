@@ -40,6 +40,7 @@ export const Portfolio = () => {
                   <div className="text-container">
                     <h3>{item.title}</h3>
                     <span>{item.name}</span>
+                    <p>{item.githubLink && <a href={item.githubLink}>Appuyez ici pour verrifier sur GitHub</a>}</p>
                   </div>
                   <VisibilityOutlinedIcon />
                 </div>

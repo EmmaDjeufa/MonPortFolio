@@ -392,3 +392,46 @@ footer i {
     padding-bottom: 50px;
   }
 }
+
+
+.about {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.container.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left {
+  flex: 1;
+}
+
+.about-img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.right {
+  flex: 2;
+  padding: 1rem;
+}
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+
+.tech-grid svg {
+  color: #555;
+  transition: color 0.3s ease;
+}
+
+.tech-grid svg:hover {
+  color: #0073e6;
+}

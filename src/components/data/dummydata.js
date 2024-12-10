@@ -18,7 +18,7 @@ export const navlink = [
   {
     url: "/services",
     icon: <FaGraduationCap />,
-    description: "Services",
+    description: "Formation",
   },
   {
     url: "/portfolio",
@@ -46,15 +46,28 @@ export const home = [
   {
     text: "HELLO !!! JE SUIS :",
     name: "Emmanuella NGOUGUE DJEUFA",
-    post: "Étudiante en dernière année d'ingénieur en informatique",
-    design: "En spécialité de Cloud Computing, et suis spécialement Organisée, avec un esprit d'analyse et de synthèse, rigoureuse, avec une bonne écoute active.",
+    post: "En dernière année d'ingénieur en informatique",
+    design: "En spécialité de Cloud Computing, et suis spécialement:",
+    design1:"Organisée, avec un esprit d'analyse et de synthèse, ",
+    design2:"rigoureuse, avec une bonne écoute active. ",
   },
 ]
 export const about = [
   {
-    desc: "Actuellement étudiante ingénieure en informatique (Niveau M2) à CY Tech, en spécialité Cloud Computing, je suis passionnée par la conception des systèmes résilients, utilisables à grande échelle, ainsi que leur sécurisation. Animée d’un vif désir d’approfondir mes connaissances, je suis à la recherche d’un stage de fin d’études qui me permettra de rejoindre une équipe dynamique pour contribuer efficacement à ses projets, tout en enrichissant mon expérience professionnelle dans ce secteur en pleine expansion.",
-    desc1: "Organisée, avec un esprit d'analyse et de synthèse, rigoureuse, avec une bonne écoute active, je suis convaincue de pouvoir contribuer efficacement à concrétiser le succès des projets de votre entreprise",
-    cover: "./images/man.png",
+    desc: "Persévérante, curieuse, coopérative et avec un esprit d’analyse et de synthèse, je suis prête à vous accompagner à transformer les défis en opportunités dans vos projets de développement et déploiement informatique. Ma capacité d’adaptation et mes compétences techniques seront certainement une valeur ajoutée à votre équipe.",
+    desc2: "Technologies utilisées : ",
+    desc3: "- Gitlab",
+    desc4: "- Github",
+    desc5: "- Terraform",
+    desc6: "- Ansible",
+    desc7: "- Docker ",
+    desc8: "- Kubernetes",
+    desc9: "- MongoDB",
+    desc10: "- SparkSQL",
+    desc11: "- VMware, Virtual Manager",
+    desc12: "- Systèmes d'exploitation Linux et Windows",
+    desc13: "- Programmation: Python, Java, Javascript, Bash, C, Angular, NodeJS",
+    cover: "../images/Emma.jpg",
   },
 ]
 export const services = [
@@ -126,6 +139,7 @@ export const portfolio = [
     name: "Projet scolaire",
     category: "scrapping",
     title: "*Scrapping de données*. Il était question de récupérer des données sur le site du marché carbonne européen sous forme de fichier .csv et analyser ces données et établir des dashboard.",
+    githubLink: "https://github.com/EmmaDjeufa/Projet_Scrapping_ING2",
   },
   {
     id: 3,
@@ -133,6 +147,7 @@ export const portfolio = [
     name: "Projet scolaire",
     category: "Cloud",
     title: "*Configuration d'une infrastructure AWS*, correspondante à notre site web de gestion des soirées étudiantes codé avec le framework Angular et firebase pour le stockage de données.",
+    githubLink: "https://github.com/EmmaDjeufa/TP_Infrastructure_AWS",
   },
   {
     id: 4,
@@ -140,6 +155,7 @@ export const portfolio = [
     name: "Projet scolaire",
     category: "Cloud",
     title: "*Déploiement d'une FastAPI avec Terraform.*",
+    githubLink: "https://github.com/EmmaDjeufa/Terraform_Docker",
   },
   {
     id: 5,
@@ -147,6 +163,7 @@ export const portfolio = [
     name: "Projet scolaire",
     category: "Cloud",
     title: "*Déploiement avec Terraform et Ansible* sur Gitlab, deux machines virtuelles et sur la première,une base de données MySQL et l'autre, une Flask API. ",
+    githubLink: "https://github.com/EmmaDjeufa/Projet_Ansible_Terraform",
   },
   {
     id: 6,
@@ -154,6 +171,7 @@ export const portfolio = [
     name: "Projet scolaire",
     category: "Web",
     title: "*Création d'un site web* de gestion des soirées étudiantes avec le framework Angular et Firebase pour le stockage de données.",
+    githubLink: "https://github.com/EmmaDjeufa/Projet_Angular",
   },
   {
     id: 7,
@@ -161,6 +179,7 @@ export const portfolio = [
     name: "Projet scolaire",
     category: "Web",
     title: "*Création d'un site web* de e-commerce avec JEE (java) en utilisant le framework Hibernate et phpMyAdmin pour le stockage de données.",
+    githubLink: "https://github.com/EmmaDjeufa/Projet_Ansible_Terraform",
   },
   {
     id: 8,
@@ -195,14 +214,7 @@ export const blog = [
     desc: "Entretien des collégiens pendant leurs révisions, orientation de ceux-ci, et correction ensemble d’exercices.",
     cover: "./images/blog/b2.png",
   },
-  {
-    id: 3,
-    title: "Refonte des logotypes des options de CY Tech,",
-    date: "19 Janvier 2024",
-    author: "Emmanuella NGOUGUE DJEUFA",
-    desc: "Il était question d’analyser succinctement les besoins de l’école d’ingénieurs CY Tech, afin d’apporter des solutions de logotypes en adéquation avec ses valeurs pour chacune de ses options de spécialisation!",
-    cover: "./images/blog/b3.png",
-  },
+  
 ]
 
 export const testimonials = [
